@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../GUI%20Project/Images/img_0771.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="7.0" layoutY="7.0">
+         <image>
+            <Image url="@../GUI%20Project/Images/search.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="70.0" layoutX="951.0" layoutY="3.0">
+         <image>
+            <Image url="@../GUI%20Project/Images/Menu%20Icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="361.0" layoutY="99.0" text="-5">
+         <font>
+            <Font name="Century Gothic Bold" size="67.0" />
+         </font>
+      </Label>
+      <Label layoutX="623.0" layoutY="143.0" prefHeight="91.0" prefWidth="237.0" text="Wembley">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="12.0" fitWidth="100.0" layoutX="85.0" layoutY="678.0">
+         <image>
+            <Image url="@../GUI%20Project/Images/GrayLine4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="700.0" layoutY="67.0" prefHeight="29.0" prefWidth="15.0" text="o">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="596.0" layoutY="219.0" prefHeight="29.0" prefWidth="171.0" text="Fifa World Cup Final">
+         <font>
+            <Font name="Century Gothic Italic" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="3.0" layoutY="723.0">
+         <image>
+            <Image url="@../GUI%20Project/Images/locaiton.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="25.0" layoutY="468.0" prefHeight="91.0" prefWidth="320.0" text="18:00    19:00    20:00    21:00    22:00">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="486.0" layoutY="-4.0">
+         <image>
+            <Image url="@../GUI%20Project/Images/sunglasses-pvc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="48.0" layoutY="39.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Snow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="637.0" layoutY="526.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/tear_drops_by_captainjackharkness-d3f56vn.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="466.0" layoutY="557.0" text="10%">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="35.0" fitWidth="45.0" layoutX="901.0" layoutY="496.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/visibility-512.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="708.0" layoutY="642.0" text="9.7 km">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="50.0" layoutX="320.0" layoutY="496.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/wind.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="378.0" layoutY="587.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/sunset.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="708.0" layoutY="577.0" text="8 mph">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="527.0" layoutY="642.0" text="19:00 ">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="1024.0" layoutY="384.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Transparent%20double%20line.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="563.0" layoutY="405.0" prefHeight="91.0" prefWidth="120.0" text="Snowing">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="901.0" layoutY="553.0" prefHeight="45.0" prefWidth="50.0" text="16:02">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="11.0" layoutY="592.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Snowing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="72.0" layoutY="592.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Snowing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="135.0" layoutY="592.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Rain.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="198.0" layoutY="586.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Night%20With%20Clouds.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="263.0" layoutY="586.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Night%20With%20Clouds.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="11.0" layoutY="342.0" prefHeight="29.0" prefWidth="50.0" text="Today">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="54.0" layoutY="355.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Arrow.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="103.0" layoutY="438.0" prefHeight="60.0" prefWidth="291.0" text="  -5         -2         -1           1          1">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

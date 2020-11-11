@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="480.0" fitWidth="320.0">
+         <image>
+            <Image url="@../Images/img_0771.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="12.0" layoutY="13.0">
+         <image>
+            <Image url="@../Images/search.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="273.0" layoutY="10.0">
+         <image>
+            <Image url="@../Images/Menu%20Icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="174.0" layoutY="55.0" text="-5">
+         <font>
+            <Font name="Century Gothic Bold" size="67.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="91.0" prefHeight="91.0" prefWidth="237.0" text="Wembley">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="12.0" fitWidth="100.0" layoutX="18.0" layoutY="409.0">
+         <image>
+            <Image url="@../Images/GrayLine4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="242.0" layoutY="56.0" text="o">
+         <font>
+            <Font name="Century Gothic Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="149.0" prefHeight="29.0" prefWidth="228.0" text="Fifa World Cup Final">
+         <font>
+            <Font name="Century Gothic Italic" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="7.0" layoutY="421.0">
+         <image>
+            <Image url="@../Images/locaiton.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="256.0" prefHeight="91.0" prefWidth="320.0" text="18:00    19:00    20:00    21:00    22:00">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="120.0">
+         <image>
+            <Image url="@../Images/sunglasses-pvc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="160.0" layoutX="-12.0" layoutY="28.0">
+         <image>
+            <Image url="@Snow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="180.0">
+         <image>
+            <Image url="@tear_drops_by_captainjackharkness-d3f56vn.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="165.0" layoutY="191.0" text="10%">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="35.0" fitWidth="45.0" layoutX="212.0" layoutY="182.0">
+         <image>
+            <Image url="@visibility-512.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="257.0" layoutY="192.0" text="9.7 km">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="50.0" layoutX="115.0" layoutY="210.0">
+         <image>
+            <Image url="@wind.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="205.0" layoutY="208.0">
+         <image>
+            <Image url="@sunset.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="166.0" layoutY="232.0" text="8 mph">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="232.0" text="19:00 pm">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="10.0" fitWidth="320.0" layoutY="278.0">
+         <image>
+            <Image url="@Transparent%20double%20line.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="156.0" prefHeight="91.0" prefWidth="120.0" text="Snowing">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="216.0" prefHeight="45.0" prefWidth="100.0" text="16:02 pm">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="322.0">
+         <image>
+            <Image url="@Snowing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="75.0" layoutY="322.0">
+         <image>
+            <Image url="@Snowing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="137.0" layoutY="322.0">
+         <image>
+            <Image url="@Rain.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="200.0" layoutY="316.0">
+         <image>
+            <Image url="@Night%20With%20Clouds.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="261.0" layoutY="316.0">
+         <image>
+            <Image url="@Night%20With%20Clouds.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="253.0" prefHeight="29.0" prefWidth="50.0" text="Today">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="57.0" layoutY="261.0">
+         <image>
+            <Image url="@Arrow.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="20.0" layoutY="347.0" prefHeight="91.0" prefWidth="290.0" text="  -5         -2         -1           1          1">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

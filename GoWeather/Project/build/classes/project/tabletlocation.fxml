@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.TabletlocationController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../Images%2012.26.28/bg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="486.0" layoutY="2.0">
+         <image>
+            <Image url="@../Images%2012.26.28/sunglasses-pvc.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="362.0" layoutY="232.0" prefHeight="91.0" prefWidth="466.0" text="Enter Your Location:">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="271.0" layoutY="213.0">
+         <image>
+            <Image url="@../Images%2012.26.28/locaiton.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="locationField" layoutX="302.0" layoutY="330.0" prefHeight="53.0" prefWidth="476.0" text="..." />
+      <Label layoutX="308.0" layoutY="365.0" prefHeight="94.0" prefWidth="435.0" text="This will be saved as your home location.">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="752.0" layoutY="474.0" mnemonicParsing="false" onAction="#locationButton" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="91.0" fitWidth="91.0">
+               <image>
+                  <Image url="@../Images%2012.26.28/Magnifying_glass_icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>

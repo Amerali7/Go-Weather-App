@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="goweather.TabletController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@Images/bg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="70.0" layoutX="942.0" layoutY="5.0">
+         <image>
+            <Image url="@Images/Menu%20Icon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="mtemp" layoutX="305.0" layoutY="87.0" text="-5">
+         <font>
+            <Font name="Century Gothic Bold" size="150.0" />
+         </font>
+      </Label>
+      <Label fx:id="Location" layoutX="288.0" layoutY="246.0" prefHeight="91.0" prefWidth="237.0">
+         <font>
+            <Font name="Century Gothic Bold" size="50.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="20.0" fitWidth="300.0" layoutX="647.0" layoutY="538.0">
+         <image>
+            <Image url="@../GUI%20Project/Images/GrayLine4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="465.0" layoutY="95.0" prefHeight="29.0" prefWidth="15.0" text="o">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Label layoutX="530.0" layoutY="126.0" prefHeight="32.0" prefWidth="601.0" text="Event: Fifa World Cup Final (England vs Germany)">
+         <font>
+            <Font name="Century Gothic Italic" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="60.0" layoutY="713.0">
+         <image>
+            <Image url="@Images/locaiton.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="66.0" layoutY="385.0" prefHeight="91.0" prefWidth="940.0" text="13:00     14:00     15:00     16:00     17:00     18:00     19:00     20:00     21:00     22:00     23:00     24:00">
+         <font>
+            <Font name="Century Gothic Bold" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="21.0">
+         <image>
+            <Image url="@Images/snow-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="65.0" layoutX="514.0" layoutY="211.0">
+         <image>
+            <Image url="@../Images%2012.26.28/tear_drops_by_captainjackharkness-d3f56vn.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="579.0" layoutY="223.0" text="Humidity:">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="55.0" fitWidth="65.0" layoutX="516.0" layoutY="273.0">
+         <image>
+            <Image url="@../Images%2012.26.28/visibility-512%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="50.0" layoutX="734.0" layoutY="206.0">
+         <image>
+            <Image url="@../Images%2012.26.28/wind.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="724.0" layoutY="261.0">
+         <image>
+            <Image url="@../Images%2012.26.28/sunset.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="1024.0" layoutY="360.0">
+         <image>
+            <Image url="@Images/LINES.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="conditions" layoutX="81.0" layoutY="246.0" prefHeight="91.0" prefWidth="324.0" text="Snowing">
+         <font>
+            <Font name="Century Gothic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="373.0" prefHeight="45.0" prefWidth="220.0" text="Hourly Forecast">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="425.0" layoutY="444.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Snowing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="503.0" layoutY="444.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Snowing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="350.0" layoutY="444.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Rain.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="727.0" layoutY="438.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Night%20With%20Clouds.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="649.0" layoutY="438.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Night%20With%20Clouds.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="21.0" layoutY="323.0" prefHeight="45.0" prefWidth="120.0" text="Today">
+         <font>
+            <Font name="Century Gothic Bold" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="103.0" layoutY="333.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Arrow.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="78.0" layoutY="508.0" prefHeight="40.0" prefWidth="885.0" text="  2             3              1             1            -5             -5             -5            -4            -2            -1             1             1">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" layoutX="282.0" layoutY="42.0" prefHeight="91.0" prefWidth="330.0" stylesheets="@../Images%2012.26.28/logo.css">
+         <font>
+            <Font name="Century Gothic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="530.0" layoutY="159.0" prefHeight="32.0" prefWidth="601.0" text="Event Location: Wembley Stadium">
+         <font>
+            <Font name="Century Gothic Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="579.0" layoutY="286.0" text="Visibility: ">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="800.0" layoutY="224.0" prefHeight="25.0" prefWidth="213.0" text="Wind Speed: ">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="800.0" layoutY="287.0" prefHeight="25.0" prefWidth="213.0" text="Sunset: ">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="55.0" layoutY="444.0">
+         <image>
+            <Image url="@../../../../../../Project/src/Images%2012.26.28/SunnyIntervals%20(2).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="128.0" layoutY="444.0">
+         <image>
+            <Image url="@../../../../../../Project/src/Images%2012.26.28/Sun%20(2).gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="204.0" layoutY="444.0">
+         <image>
+            <Image url="@GUI%20Project/Images/Sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="274.0" layoutY="444.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Rain.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="804.0" layoutY="438.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Night%20With%20Clouds.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="877.0" layoutY="438.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Night%20With%20Clouds.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="575.0" layoutY="444.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Snowing.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="day1" layoutX="71.0" layoutY="548.0" prefHeight="45.0" prefWidth="878.0" text="MON ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="58.0" layoutY="584.0">
+         <image>
+            <Image url="@../../../../../../Project/src/Images%2012.26.28/Thunder.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="203.0" layoutY="584.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Snowing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="339.0" layoutY="584.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Rain.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="480.0" layoutY="584.0">
+         <image>
+            <Image url="@GUI%20Project/Images/Sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="619.0" layoutY="584.0">
+         <image>
+            <Image url="@GUI%20Project/Images/Sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="746.0" layoutY="584.0">
+         <image>
+            <Image url="@GUI%20Project/Images/Sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="70.0" layoutX="893.0" layoutY="584.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Rain.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="condition1" layoutX="26.0" layoutY="677.0" prefHeight="60.0" prefWidth="139.0" text="        Snow  ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="temp1" layoutX="73.0" layoutY="659.0" prefHeight="35.0" prefWidth="40.0" text=" -5 ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="974.0" layoutY="607.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Arrow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="25.0" layoutY="464.0" rotate="180.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/Arrow.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="-1.0" layoutY="10.0" mnemonicParsing="false" onAction="#onSearch" prefHeight="27.0" prefWidth="58.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="60.0">
+               <image>
+                  <Image url="@Images/search.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TextField fx:id="searchField" layoutX="71.0" layoutY="20.0" prefHeight="35.0" prefWidth="395.0" promptText="Search by Event or Location" visible="false" />
+      <MenuButton fx:id="menu" layoutX="983.0" layoutY="21.0" mnemonicParsing="false" onMouseClicked="#getPage" style="-fx-background-color: transparent;">
+        <items>
+          <MenuItem fx:id="share" mnemonicParsing="false" onAction="#getSharePage" text="Share Weather" />
+          <MenuItem fx:id="saved" mnemonicParsing="false" onAction="#getSavedPage" text="Saved Events" />
+            <MenuItem fx:id="warnings" mnemonicParsing="false" onAction="#getWarningPage" text="Weather Warnings" />
+            <MenuItem fx:id="edit" mnemonicParsing="false" onAction="#getEditPage" text="Edit Home Location" />
+            <MenuItem fx:id="info" mnemonicParsing="false" onAction="#getInfoPage" text="Info" />
+        </items>
+      </MenuButton>
+      <Label layoutX="670.0" layoutY="224.0" text="10%">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="vis" layoutX="670.0" layoutY="287.0" text="10%">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="wind" layoutX="932.0" layoutY="224.0" text="10%">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="sun" layoutX="871.0" layoutY="288.0" text="20:00pm">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="day2" layoutX="215.0" layoutY="548.0" prefHeight="45.0" prefWidth="878.0" text="TUE                ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="day3" layoutX="350.0" layoutY="548.0" prefHeight="45.0" prefWidth="878.0" text="WED">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="day4" layoutX="493.0" layoutY="548.0" prefHeight="45.0" prefWidth="50.0" text="THU">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="day5" layoutX="638.0" layoutY="548.0" prefHeight="45.0" prefWidth="50.0" text="FRI">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="764.0" layoutY="548.0" prefHeight="45.0" prefWidth="50.0" text="SAT">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="907.0" layoutY="548.0" prefHeight="45.0" prefWidth="50.0" text="SUN">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="temp2" layoutX="219.0" layoutY="659.0" prefHeight="35.0" prefWidth="40.0" text="4">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="temp4" layoutX="496.0" layoutY="660.0" prefHeight="35.0" prefWidth="40.0" text="-3">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="temp3" layoutX="358.0" layoutY="659.0" prefHeight="35.0" prefWidth="40.0" text="1">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="condition2" layoutX="211.0" layoutY="677.0" prefHeight="60.0" prefWidth="139.0" text="sun">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="condition3" layoutX="305.0" layoutY="677.0" prefHeight="60.0" prefWidth="139.0" text="Partly cloudy">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="condition4" layoutX="451.0" layoutY="677.0" prefHeight="60.0" prefWidth="130.0" text="        Snow  ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="946.0" layoutY="694.0" mnemonicParsing="false" onAction="#changeScreen" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="67.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Mobile-Smartphone-Tablet-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>

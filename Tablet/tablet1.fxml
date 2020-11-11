@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="319.0" fitWidth="429.0" layoutX="291.0" layoutY="166.0">
+         <image>
+            <Image url="@../GUI%20Project/Go%20Weather%20Mobile/GoWeather!.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="334.0" layoutY="459.0" prefHeight="29.0" prefWidth="399.0" text=" A Team Omega Development">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

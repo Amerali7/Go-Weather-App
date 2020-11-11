@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="goweather.GoWeatherMobileAppController">
+   <children>
+      <ImageView fitHeight="480.0" fitWidth="320.0">
+         <image>
+            <Image url="@../Images/bg.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="mtemp" layoutX="174.0" layoutY="55.0" text="-5">
+         <font>
+            <Font name="Century Gothic Bold" size="67.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="91.0" prefHeight="91.0" prefWidth="144.0" text="Wembley">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="12.0" fitWidth="100.0" layoutX="19.0" layoutY="416.0">
+         <image>
+            <Image url="@../Images/GrayLine4.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="242.0" layoutY="57.0" prefHeight="29.0" prefWidth="15.0" text="o">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="144.0" prefHeight="29.0" prefWidth="171.0" text="FIFA World Cup Final">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="256.0" prefHeight="91.0" prefWidth="320.0" text="18:00    19:00    20:00    21:00    22:00">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="40.0" fitWidth="60.0" layoutX="133.0" layoutY="-1.0">
+         <image>
+            <Image url="@../Images/sunglasses-pvc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="154.0" fitWidth="144.0" layoutX="4.0" layoutY="51.0">
+         <image>
+            <Image url="@../Images/snow-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="120.0" layoutY="180.0">
+         <image>
+            <Image url="@../Images/tear_drops_by_captainjackharkness-d3f56vn.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="165.0" layoutY="191.0" text="10%">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="35.0" fitWidth="45.0" layoutX="212.0" layoutY="182.0">
+         <image>
+            <Image url="@../Images/visibility-512.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="vis" layoutX="257.0" layoutY="192.0" text="9.7 km">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="50.0" layoutX="115.0" layoutY="210.0">
+         <image>
+            <Image url="@../Images/wind.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="205.0" layoutY="208.0">
+         <image>
+            <Image url="@../Images/sunset.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="wind" layoutX="166.0" layoutY="232.0" text="8 mph">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="sun" layoutX="258.0" layoutY="232.0" text="19:00 ">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="10.0" fitWidth="320.0" layoutY="278.0">
+         <image>
+            <Image url="@../Images/LINES.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="conditions" layoutX="14.0" layoutY="156.0" prefHeight="91.0" prefWidth="120.0" text="Snowing">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" layoutX="44.0" layoutY="209.0" prefHeight="22.0" prefWidth="35.0" text="16:02">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="11.0" layoutY="322.0">
+         <image>
+            <Image url="@Images/Snowing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="72.0" layoutY="322.0">
+         <image>
+            <Image url="@Images/Snowing.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="135.0" layoutY="322.0">
+         <image>
+            <Image url="@Images/Rain.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="198.0" layoutY="325.0">
+         <image>
+            <Image url="@Images/Rain.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="257.0" layoutY="325.0">
+         <image>
+            <Image url="@Images/hailstone.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="253.0" prefHeight="29.0" prefWidth="50.0" text="Today">
+         <font>
+            <Font name="Century Gothic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="360.0" prefHeight="60.0" prefWidth="291.0" text="  -5         -2         -1           1          1">
+         <font>
+            <Font name="Century Gothic Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="58.0" layoutY="257.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="26.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="15.0" fitWidth="15.0">
+               <image>
+                  <Image url="@Images/Arrow.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="266.0" layoutY="434.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/Mobile-Smartphone-Tablet-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="-7.0" layoutY="434.0" mnemonicParsing="false" onAction="#locationButton" prefHeight="40.0" prefWidth="0.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0">
+               <image>
+                  <Image url="@../Images/locaiton.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="-5.0" layoutY="-2.0" mnemonicParsing="false" onAction="#searchButton" prefHeight="45.0" prefWidth="60.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0">
+               <image>
+                  <Image url="@../Images/search.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <TextField fx:id="search" layoutX="46.0" layoutY="7.0" prefHeight="27.0" prefWidth="201.0" visible="false" />
+      <Label layoutX="38.0" layoutY="47.0" />
+      <MenuButton layoutX="274.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#getPage" prefHeight="26.0" prefWidth="45.0" style="-fx-background-color: transparent;">
+        <items>
+          <MenuItem fx:id="share" mnemonicParsing="false" text="Share Weather" />
+          <MenuItem fx:id="saved" mnemonicParsing="false" text="Saved Events" />
+            <MenuItem fx:id="warnings" mnemonicParsing="false" text="Weather Warnings" />
+            <MenuItem fx:id="edit" mnemonicParsing="false" text="Edit Home Location" />
+            <MenuItem fx:id="info" mnemonicParsing="false" text="Info" />
+        </items>
+      </MenuButton>
+      <ImageView fitHeight="36.0" fitWidth="44.0" layoutX="260.0" layoutY="2.0">
+         <image>
+            <Image url="@../Images/Menu%20Icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

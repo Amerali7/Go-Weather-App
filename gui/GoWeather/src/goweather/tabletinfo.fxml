@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" stylesheets="@../Images%2012.26.28/img.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@../Images%2012.26.28/bg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="507.0">
+         <image>
+            <Image url="@../GUI%20Project/Images/sunglasses-pvc.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="459.0" layoutY="131.0" prefHeight="91.0" prefWidth="233.0" text="Information:">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="582.0" layoutX="242.0" layoutY="458.0">
+         <image>
+            <Image url="@../Images%2012.26.28/line.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="384.0" layoutY="131.0">
+         <image>
+            <Image url="@../Images%2012.26.28/information%20icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="338.0" layoutY="462.0">
+         <image>
+            <Image url="@../Images%2012.26.28/sunset.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="80.0" layoutX="351.0" layoutY="395.0">
+         <image>
+            <Image url="@../Images%2012.26.28/wind.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="90.0" layoutX="339.0" layoutY="346.0">
+         <image>
+            <Image url="@../Images%2012.26.28/visibility-512.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="350.0" layoutY="252.0">
+         <image>
+            <Image url="@../Images%2012.26.28/tear_drops_by_captainjackharkness-d3f56vn%20(2).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="515.0" layoutY="286.0" prefHeight="29.0" prefWidth="228.0" text="Chance Of Rain">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="520.0" layoutY="363.0" prefHeight="29.0" prefWidth="228.0" text="Visibility">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="524.0" layoutY="437.0" prefHeight="29.0" prefWidth="228.0" text="Wind Speed">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="528.0" layoutY="498.0" prefHeight="29.0" prefWidth="228.0" text="Sunset">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="582.0" layoutX="257.0" layoutY="122.0">
+         <image>
+            <Image url="@../Images%2012.26.28/line.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
